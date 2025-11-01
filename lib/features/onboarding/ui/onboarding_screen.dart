@@ -36,7 +36,6 @@ class OnboardingScreen extends StatelessWidget {
                     CustomButton(
                       title: "Get Started",
                       onPressed: () => context.pushNamed(Routes.login),
-                      color: AppColors.mainBlue,
                     )
                   ],
                 ),
