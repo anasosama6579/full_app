@@ -1,6 +1,5 @@
 import 'package:complete_app/core/helpers/extensions.dart';
 import 'package:complete_app/core/routing/routes.dart';
-import 'package:complete_app/core/theming/app_colors.dart';
 import 'package:complete_app/core/theming/app_styles.dart';
 import 'package:complete_app/core/widgets/custom_button.dart';
 import 'package:complete_app/features/onboarding/ui/widgets/doc_image_and_text.dart';
@@ -35,7 +34,7 @@ class OnboardingScreen extends StatelessWidget {
                     SizedBox(height: 32.h),
                     CustomButton(
                       title: "Get Started",
-                      onPressed: () => context.pushNamed(Routes.login),
+                      onPressed: () => context.pushNamed(Routes.loginScreen),
                     )
                   ],
                 ),

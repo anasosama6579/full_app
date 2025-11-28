@@ -36,7 +36,7 @@ class AppStyles {
   static TextStyle font12W400Gray = TextStyle(
     fontSize: 12.sp,
     fontWeight: FontWeight.w400,
-    color: AppColors.gray,
+    color: AppColors.grey,
   );
 
   static TextStyle font12W400Black = TextStyle(
@@ -48,7 +48,7 @@ class AppStyles {
   static TextStyle font14W400Gray = TextStyle(
     fontSize: 14.sp,
     fontWeight: FontWeight.w400,
-    color: AppColors.gray,
+    color: AppColors.grey,
   );
 
   static TextStyle font14W500InnerGray = TextStyle(
@@ -68,5 +68,14 @@ class AppStyles {
     fontWeight: FontWeight.w600,
     color: Colors.white,
   );
-
+  static TextStyle font14W400Black = TextStyle(
+    fontSize: 14.sp,
+    fontWeight: FontWeight.w400,
+    color: Colors.black,
+  );
+  static TextStyle font14W600Blue = TextStyle(
+    fontSize: 14.sp,
+    fontWeight: FontWeight.w600,
+    color: AppColors.mainBlue,
+  );
 }

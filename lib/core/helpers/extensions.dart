@@ -17,4 +17,6 @@ extension Navigation on BuildContext {
   }
 
   void pop() => Navigator.pop(this);
+
+  void popDialog() => Navigator.of(this, rootNavigator: true).pop();
 }
