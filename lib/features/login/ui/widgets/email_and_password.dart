@@ -1,6 +1,5 @@
 import 'package:complete_app/core/helpers/app_regex.dart';
 import 'package:complete_app/core/helpers/spacing.dart';
-
 import 'package:complete_app/core/widgets/app_text_form_field.dart';
 import 'package:complete_app/features/login/logic/login_cubit.dart';
 import 'package:complete_app/core/widgets/password_validation.dart';

@@ -1,7 +1,9 @@
 import 'package:dio/dio.dart';
 
-import '../../../../complete_app/lib/core/networking/api_constants.dart';
-import '../../../../complete_app/lib/core/networking/api_error_model.dart';
+import 'api_constants.dart';
+import 'api_error_model.dart';
+
+
 
 
 
